@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    background-color: #F8F9FA ;
+}
+
+
+/* order area start here */
+
+.order {
+    padding: 20px 0px;
+    /* background-color: #FFFFFF; */
+    width: 100%;
+}
+
+
+.order .order-box {
+
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 28px;
+   
+    transition: transform .3s;
+}
+
+
+.order .order-box .box-header {
+    background-color: #B3B3B3;
+    padding: 15px 0px;
+    border-radius: 28px 28px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.order .order-box .box-header.highlight-header {
+    background-color: #19BC7A;
+    color: #fff;
+}
+
+.order .order-box .box-header h2 {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+
+
+}
+
+.order .order-box .box-body {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.box-top {
+    margin-bottom: 20px;
+}
+
+.box-top h5 {
+
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #5d5d5d;
+
+}
+
+
+.order .order-box .box-body .order-image {
+    max-width: 280px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.new-price p {
+    color: #62318d;
+    font-size: 22px;
+}
+
+.new-price span {
+    color: #62318d;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Roboto", Sans-serif;
+}
+
+.normal-price p {
+    color: #000;
+    font-size: 22px;
+    font-family: "Roboto", Sans-serif;
+}
+
+.normal-price span {
+    color: #62318d;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Roboto", Sans-serif;
+}
+
+.order-btn {
+    border: none;
+    background-color: #f9a81b;
+    border: 1px solid #e08311;
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 5px;
+    font-size: 24px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+}
+
+.shipping span {
+    font-size: 14px;
+    font-family: "Roboto", Sans-serif;
+}
+
+
+
+
+
+/* order area end here */
+
+
+@keyframes swing {
+    0% {
+        -webkit-transform: rotate( 15deg);
+        transform: rotate( 0deg);
+    }
+    40% {
+        -webkit-transform: rotate( -10deg);
+        transform: rotate( -2deg);
+    }
+    60% {
+        -webkit-transform: rotate( 5deg);
+        transform: rotate( 2deg);
+    }
+    80% {
+        -webkit-transform: rotate( -5deg);
+        transform: rotate( 0deg);
+    }
+    100% {
+        -webkit-transform: rotate( 0deg);
+        transform: rotate( 0deg);
+    }
+}
+
+.popunder-header {
+    background-color: #156898;
+    width: 100%;
+    padding: 8px 0px;
+}
+
+.popunder-header h1 {
+    margin-bottom: 0px;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.timer-area {
+    background-color: #E6E6E6;
+}
+
+.timer-area .timer-title h2 {
+    text-align: center;
+    font-size: 22px;
+    margin: 5px 0px 6px 0px;
+    color: #000;
+}
+
+.timer-area .timer-title h2 span {
+    color: #2A7DD5;
+}
+
+.popup-timers {
+    background-color: #fff;
+    color: #000;
+    padding: 0px 10px;
+    border-radius: 8px;
+}
